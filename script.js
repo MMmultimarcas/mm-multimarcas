@@ -31,6 +31,33 @@ const produtos = [
     imagem: "imagens/camisera zara.jpeg",
     link: ""
   },
+  {
+    nome: "Camisetas Calvin Klein - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "imagens/camiseta Calvin Klein Jeans.jpeg",
+    link: ""
+   {
+  {
+    nome: "Camisetas Acostamento - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "imagens/camiseta acostamento.jpeg",
+    link: ""
+   {
+  {
+    nome: "Camisetas Reserva - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "imagens/reserva cores variadas.jpeg",
+    link: ""
+   {
+  {
+    nome: "Camisetas Txc - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "imagens/txc cores variadas.jpeg",
+    link: ""
    {
     nome: "Camisetas Txc - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
@@ -45,13 +72,13 @@ const produtos = [
     imagem: "imagens/camiseta Calvin Klein Jeans.jpeg",
     link: ""
   },
-  {
-    nome: "Calça exemplo",
-    categoria: "Calças",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-04.jpg",
+    {
+    nome: "Jaqueta Importada Zara",
+    categoria: "Jaquetas",
+    preco: "R$ 180,00",
+    imagem: "imagens/Jaqueta Zara.jpeg",
     link: ""
-  },
+},
   {
     nome: "Short Mauricinho Zara",
     categoria: "Bermudas",
@@ -59,13 +86,6 @@ const produtos = [
     imagem: "imagens/bermuda sarja zara.jpeg",
     link: ""
   },
-  {
-    nome: "Chinelo exemplo",
-    categoria: "Chinelos",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-06.jpg",
-    link: ""
-  }
 ];
 
 const productGrid = document.getElementById("productGrid");

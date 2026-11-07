@@ -37,28 +37,28 @@ const produtos = [
     preco: "R$ 100,00",
     imagem: "imagens/camiseta Calvin Klein Jeans.jpeg",
     link: ""
-  };
+  },
   {
     nome: "Camisetas Acostamento - Cores Variadas",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camiseta acostamento.jpeg",
     link: ""
-    };
+    },
   {
     nome: "Camisetas Reserva - Cores Variadas",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/reserva cores variadas.jpeg",
     link: ""
-    };
+    },
   {
     nome: "Camisetas Txc - Cores Variadas",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/txc cores variadas.jpeg",
     link: ""
-    };
+    },
 {
     nome: "Camisetas Txc - Gold Suedine Fio 50.1",
     categoria: "Camisetas",

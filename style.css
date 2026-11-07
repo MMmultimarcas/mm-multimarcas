@@ -139,7 +139,8 @@ button { font: inherit; }
     z-index: 9999 !important;
   }
 
-  .footer-bottom .instagram-round {
-    margin-right: 0 !important;
-  }
+ .footer-bottom .instagram-round {
+  position: relative;
+  left: -20px;
+}
 }

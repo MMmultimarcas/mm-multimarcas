@@ -25,6 +25,13 @@ const produtos = [
     link: ""
   },
   {
+    nome: "Camisetas Zara - Gold Suedine Fio 50.1",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "camisera zara.jpeg",
+    link: ""
+  },
+  {
     nome: "Calça exemplo",
     categoria: "Calças",
     preco: "R$ 00,00",

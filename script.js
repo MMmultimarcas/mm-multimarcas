@@ -22,14 +22,14 @@ const produtos = [
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camiseta boss.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+Boss+-+Gold+Suedine+Fio+50.1+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },
   {
     nome: "Camisetas Zara - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camisera zara.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+Zara+-+Gold+Suedine+Fio+50.1+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number"
   },
   {
     nome: "Camisetas Calvin Klein - Cores Variadas",
@@ -43,14 +43,14 @@ const produtos = [
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camiseta acostamento.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1%21+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+Acostamento+%E2%80%94+cores+variadas+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0"
     },
   {
     nome: "Camisetas Reserva - Cores Variadas",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/reserva cores variadas.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1%21+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+Reserva+%E2%80%94+cores+variadas+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0"
     },
   {
     nome: "Camisetas Txc - Cores Variadas",
@@ -64,28 +64,28 @@ const produtos = [
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camiseta txc.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+TXC+-+Gold+Suedine+Fio+50.1+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },
   {
     nome: "Camisetas Calvin Klein - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 100,00",
     imagem: "imagens/camiseta Calvin Klein Jeans.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1%21+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+TXC+%E2%80%94+diversas+cores+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0"
   },
     {
     nome: "Jaqueta Importada Zara",
     categoria: "Jaquetas",
     preco: "R$ 180,00",
     imagem: "imagens/Jaqueta Zara.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Jaqueta+Importada+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
 },
   {
     nome: "Short Mauricinho Zara",
     categoria: "Bermudas",
     preco: "R$ 100,00",
     imagem: "imagens/bermuda sarja zara.jpeg",
-    link: ""
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Short+Mauricinho+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },
 ];
 

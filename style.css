@@ -119,3 +119,13 @@ button { font: inherit; }
   .instagram-round { width: 52px; height: 52px; }
   .whatsapp-float { width: 53px; height: 53px; right: 17px; bottom: 17px; }
 }
+.whatsapp-icon {
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+}
+
+.whatsapp-float .whatsapp-icon {
+  width: 30px;
+  height: 30px;
+}

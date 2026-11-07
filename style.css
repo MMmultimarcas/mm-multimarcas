@@ -125,7 +125,15 @@ button { font: inherit; }
   flex-shrink: 0;
 }
 
+
 .whatsapp-float .whatsapp-icon {
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-float {
+    bottom: 85px !important;
+    right: 17px !important;
+  }
 }

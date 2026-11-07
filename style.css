@@ -130,15 +130,3 @@ button { font: inherit; }
   width: 30px;
   height: 30px;
 }
-
-@media (max-width: 480px) {
-  .whatsapp-float {
-    bottom: 90px !important;
-    right: 17px !important;
-  }
-
-  .footer-bottom .instagram-round {
-    position: relative;
-    left: -30px !important;
-  }
-}

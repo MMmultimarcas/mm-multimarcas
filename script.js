@@ -25,20 +25,6 @@ const produtos = [
     link: ""
   },
   {
-    nome: "Suéter exemplo",
-    categoria: "Suéteres",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-02.jpg",
-    link: ""
-  },
-  {
-    nome: "Jaqueta exemplo",
-    categoria: "Jaquetas",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-03.jpg",
-    link: ""
-  },
-  {
     nome: "Calça exemplo",
     categoria: "Calças",
     preco: "R$ 00,00",

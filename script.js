@@ -49,8 +49,7 @@ const produtos = [
     nome: "Short Mauricinho Zara",
     categoria: "Bermudas",
     preco: "R$ 100,00",
-    imagem: "Imagem do WhatsApp 2026-11-06 em 22.12.12.jpeg
-",
+    imagem: "bermudazara.jpeg",
     link: ""
   },
   {

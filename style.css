@@ -48,7 +48,7 @@ button { font: inherit; }
 .catalog-note { color: #999; font-size: 9px; letter-spacing: 1.7px; white-space: nowrap; }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 42px 22px; padding-top: 35px; }
 .product-card { min-width: 0; }
-.product-image-wrap { background: #f0f0f0; aspect-ratio: 4 / 5; overflow: hidden; position: relative; }
+.product-image-wrap { background: #f0f0f0; aspect-ratio: 1 / 1; overflow: hidden; position: relative; }
 .product-image { width: 100%; height: 100%; display: block; object-fit: contain; transition: transform .5s; }
 .product-card:hover .product-image { transform: scale(1.035); }
 .image-placeholder { width: 100%; height: 100%; display: grid; place-items: center; color: #aaa; background: linear-gradient(135deg, #f1f1f1, #e4e4e4); font-size: 12px; letter-spacing: 2px; }

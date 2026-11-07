@@ -18,10 +18,10 @@ const INSTAGRAM_LINK = "https://www.instagram.com/mahylsonmorais/";
 // Se deixar link vazio, será usado o WHATSAPP_LINK geral.
 const produtos = [
   {
-    nome: "Camiseta exemplo",
+    nome: "Camisetas Boss - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-01.jpg",
+    preco: "R$ 100,00",
+    imagem: "camiseta boss.jpeg",
     link: ""
   },
   {

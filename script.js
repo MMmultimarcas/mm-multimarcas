@@ -35,8 +35,8 @@ const produtos = [
     nome: "Camisetas Calvin Klein - Cores Variadas",
     categoria: "Camisetas",
     preco: "R$ 100,00",
-    imagem: "imagens/",
-    link: "txc cores variadas.jpeg"
+    imagem: "imagens/calvin klein cores variadas.jpeg",
+    link: ""
   },
   {
     nome: "Camisetas Acostamento - Cores Variadas",

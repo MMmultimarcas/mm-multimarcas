@@ -9,7 +9,7 @@ const WHATSAPP_LINK = "https://wa.me/556499380911";
 
 // 2) COLOQUE AQUI O LINK DO INSTAGRAM.
 // Exemplo: "https://www.instagram.com/seuperfil/"
-const INSTAGRAM_LINK = "COLOQUE_SEU_LINK_DO_INSTAGRAM_AQUI";
+const INSTAGRAM_LINK = "https://www.instagram.com/mahylsonmorais/";
 
 // 3) CADASTRE OU EDITE OS PRODUTOS NESTA LISTA.
 // Para as fotos, coloque os arquivos na pasta "imagens" e informe o caminho.

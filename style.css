@@ -132,12 +132,14 @@ button { font: inherit; }
 }
 
 @media (max-width: 480px) {
-  .footer-bottom .instagram-round {
-    margin-right: 70px !important;
+  .whatsapp-float {
+    position: fixed !important;
+    bottom: 90px !important;
+    right: 17px !important;
+    z-index: 9999 !important;
   }
 
-  .whatsapp-float {
-    bottom: 17px !important;
-    right: 17px !important;
+  .footer-bottom .instagram-round {
+    margin-right: 0 !important;
   }
 }

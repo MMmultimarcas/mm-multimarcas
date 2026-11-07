@@ -120,8 +120,8 @@ button { font: inherit; }
   .whatsapp-float { width: 53px; height: 53px; right: 17px; bottom: 17px; }
 }
 .whatsapp-icon {
-  width: 23px;
-  height: 23px;
+  width: 17px;
+  height: 17px;
   flex-shrink: 0;
 }
 

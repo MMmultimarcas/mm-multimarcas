@@ -39,6 +39,13 @@ const produtos = [
     link: ""
   },
   {
+    nome: "Camisetas Calvin Klein - Gold Suedine Fio 50.1",
+    categoria: "Camisetas",
+    preco: "R$ 100,00",
+    imagem: "imagens/camiseta Calvin Klein Jeans.jpeg",
+    link: ""
+  },
+  {
     nome: "Calça exemplo",
     categoria: "Calças",
     preco: "R$ 00,00",

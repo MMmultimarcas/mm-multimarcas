@@ -5,7 +5,7 @@
 
 // 1) COLOQUE AQUI O LINK GERAL DO WHATSAPP.
 // Exemplo: "https://wa.me/5564999999999"
-const WHATSAPP_LINK = "https://wa.me/5564999380911";
+const WHATSAPP_LINK = "https://wa.me/64999380911";
 
 // 2) COLOQUE AQUI O LINK DO INSTAGRAM.
 // Exemplo: "https://www.instagram.com/seuperfil/"

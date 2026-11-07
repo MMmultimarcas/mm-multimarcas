@@ -46,10 +46,10 @@ const produtos = [
     link: ""
   },
   {
-    nome: "Bermuda exemplo",
+    nome: "Short Mauricinho Zara",
     categoria: "Bermudas",
-    preco: "R$ 00,00",
-    imagem: "imagens/produto-05.jpg",
+    preco: "R$ 100,00",
+    imagem: "WhatsApp Image 2026-11-06 at 22.12.12.jpg",
     link: ""
   },
   {

@@ -21,14 +21,14 @@ const produtos = [
     nome: "Camisetas Boss - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 100,00",
-    imagem: "camiseta boss.jpeg",
+    imagem: "imagens/camiseta boss.jpeg",
     link: ""
   },
   {
     nome: "Camisetas Zara - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 100,00",
-    imagem: "camisera zara.jpeg",
+    imagem: "imagens/camisera zara.jpeg",
     link: ""
   },
   {
@@ -42,7 +42,7 @@ const produtos = [
     nome: "Short Mauricinho Zara",
     categoria: "Bermudas",
     preco: "R$ 100,00",
-    imagem: "bermudazara.jpeg",
+    imagem: "imagens/bermuda sarja zara.jpeg",
     link: ""
   },
   {

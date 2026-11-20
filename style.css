@@ -332,3 +332,28 @@ button { font: inherit; }
   color: initial;
 }
 .hero-brand { width: min(100%, 560px); }
+
+
+/* Textos que antes apareciam em amarelo: fundo ouro e letras pretas */
+.brand-name,
+.brand-footer .brand-name,
+.eyebrow,
+.hero-eyebrow,
+.section-heading .eyebrow,
+.delivery .eyebrow,
+.product-category,
+.footer-heading,
+.filter.active,
+.filter:hover {
+  display: inline-block;
+  width: fit-content;
+  padding: 5px 9px;
+  background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
+  color: #080808 !important;
+  text-shadow: none;
+  border: 0;
+}
+.filter.active,
+.filter:hover {
+  border-bottom: 0;
+}

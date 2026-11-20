@@ -90,12 +90,19 @@ const produtos = [
     link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1%21+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Camisetas+TXC+%E2%80%94+diversas+cores+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0"
   },
     {
-    nome: "Jaqueta Cinza-Azulado Zara",
+    nome: "Jaqueta Bomber Cinza-Azulado Zara",
     categoria: "Jaquetas",
     preco: "R$ 179,99",
     imagem: "imagens/jaqueta-cinza.jpeg",
-    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Jaqueta+Cinza-Azulado+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Jaqueta+Bomber+Cinza-Azulado+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
 },
+  {
+    nome: "Jaqueta Bomber Verde-Musgo Zara",
+    categoria: "Jaquetas",
+    preco: "R$ 179,99",
+    imagem: "imagens/jaqueta-musgo.jpeg",
+    link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Jaqueta+Bomber+Verde-Musgo+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0"
+  },
   {
     nome: "Bermudas Mauricinho Zara",
     categoria: "Bermudas",

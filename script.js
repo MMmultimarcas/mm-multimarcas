@@ -83,7 +83,7 @@ const produtos = [
   {
     nome: "Bermudas Mauricinho Zara",
     categoria: "Bermudas",
-    preco: "R$ 99,90",
+    preco: "R$ 70,00",
     imagem: "imagens/bermuda sarja zara.jpeg",
     link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Short+Mauricinho+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },

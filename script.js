@@ -18,6 +18,14 @@ const INSTAGRAM_LINK = "https://www.instagram.com/mm_multimarcasgold/";
 // Se deixar link vazio, será usado o WHATSAPP_LINK geral.
 const produtos = [
   {
+    nome: "Camisetas Polo - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 149,99",
+    precoPromocional: "R$ 99,99",
+    imagem: "imagens/polo-site.jpg.jpeg",
+    link: ""
+  },
+  {
     nome: "Camisetas Boss - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 99,90",
@@ -86,14 +94,6 @@ const produtos = [
     preco: "R$ 69,99",
     imagem: "imagens/bermuda sarja zara.jpeg",
     link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Short+Mauricinho+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
-  },
-  {
-    nome: "Camisetas Polo - Cores Variadas",
-    categoria: "Camisetas",
-    preco: "R$ 149,99",
-    precoPromocional: "R$ 99,99",
-    imagem: "imagens/camisetas polo cores variadas.jpeg",
-    link: ""
   },
 ];
 

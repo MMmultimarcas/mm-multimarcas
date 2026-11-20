@@ -26,6 +26,14 @@ const produtos = [
     link: ""
   },
   {
+    nome: "Camisetas Texturizadas - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 99,90",
+    precoPromocional: "R$ 79,99",
+    imagem: "imagens/texturizadas.jpeg",
+    link: ""
+  },
+  {
     nome: "Camisetas Boss - Gold Suedine Fio 50.1",
     categoria: "Camisetas",
     preco: "R$ 99,90",

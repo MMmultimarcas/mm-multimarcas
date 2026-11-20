@@ -334,31 +334,6 @@ button { font: inherit; }
 .hero-brand { width: min(100%, 560px); }
 
 
-/* Textos que antes apareciam em amarelo: fundo ouro e letras pretas */
-.brand-name,
-.brand-footer .brand-name,
-.eyebrow,
-.hero-eyebrow,
-.section-heading .eyebrow,
-.delivery .eyebrow,
-.product-category,
-.footer-heading,
-.filter.active,
-.filter:hover {
-  display: inline-block;
-  width: fit-content;
-  padding: 5px 9px;
-  background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
-  color: #080808 !important;
-  text-shadow: none;
-  border: 0;
-}
-.filter.active,
-.filter:hover {
-  border-bottom: 0;
-}
-
-
 /* Logo do rodapé com o mesmo visual da marca no cabeçalho */
 .brand-footer {
   align-items: center;
@@ -380,4 +355,16 @@ button { font: inherit; }
   color: #17130c !important;
   background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
   padding: 5px 9px;
+}
+
+
+/* Apenas o botão "Consultar entrega": fundo dourado e letras pretas */
+.button-dark {
+  background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
+  color: #080808;
+  border: 1px solid #b58a3c;
+}
+.button-dark:hover {
+  background: linear-gradient(110deg, #f0d78f, #fff0bd, #c9a34e);
+  color: #080808;
 }

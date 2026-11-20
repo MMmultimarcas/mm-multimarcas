@@ -357,3 +357,27 @@ button { font: inherit; }
 .filter:hover {
   border-bottom: 0;
 }
+
+
+/* Logo do rodapé com o mesmo visual da marca no cabeçalho */
+.brand-footer {
+  align-items: center;
+}
+.brand-footer .brand-mark {
+  font-size: 43px;
+  line-height: .9;
+  letter-spacing: -8px;
+  padding-right: 8px;
+  transform: scaleX(1.12);
+  background: linear-gradient(135deg, #8d6827 5%, #e7c66f 45%, #a77d30 75%, #f5df9b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.brand-footer .brand-name {
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  color: #17130c !important;
+  background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
+  padding: 5px 9px;
+}

@@ -87,6 +87,14 @@ const produtos = [
     imagem: "imagens/bermuda sarja zara.jpeg",
     link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Short+Mauricinho+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },
+  {
+    nome: "Camisetas Polo - Cores Variadas",
+    categoria: "Camisetas",
+    preco: "R$ 149,99",
+    precoPromocional: "R$ 99,99",
+    imagem: "imagens/camisetas polo cores variadas.jpeg",
+    link: ""
+  },
 ];
 
 const productGrid = document.getElementById("productGrid");
@@ -137,7 +145,7 @@ function renderizarProdutos(categoria = "Todos") {
     };
     imageWrap.appendChild(img);
 
-    const emPromocao = produto.categoria === "Camisetas" && produto.preco === "R$ 99,90";
+    const emPromocao = Boolean(produto.precoPromocional) || (produto.categoria === "Camisetas" && produto.preco === "R$ 99,90");
     const info = document.createElement("div");
     info.className = "product-info";
 
@@ -157,7 +165,7 @@ function renderizarProdutos(categoria = "Todos") {
       oldPrice.textContent = produto.preco;
       const salePrice = document.createElement("strong");
       salePrice.className = "sale-price";
-      salePrice.textContent = "R$ 79,99";
+      salePrice.textContent = produto.precoPromocional || "R$ 79,99";
       const saleLabel = document.createElement("span");
       saleLabel.className = "sale-label";
       saleLabel.textContent = "PROMOÇÃO";

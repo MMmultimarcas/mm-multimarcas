@@ -145,3 +145,147 @@ button { font: inherit; }
   width: 30px;
   height: 30px;
 }
+
+
+/* ACABAMENTO PREMIUM — PRETO + BRANCO + DOURADO OURO */
+:root {
+  --gold: #c9a34e;
+  --gold-light: #f0d78f;
+  --gold-dark: #98712d;
+  --paper: #fffdf8;
+  --line: #e8dfcc;
+}
+
+/* Cabeçalho claro: branco, preto e detalhes ouro */
+.site-header {
+  background: linear-gradient(110deg, #ffffff 0%, #fffdf8 72%, #f7efdF 100%);
+  color: var(--black);
+  border-bottom: 1px solid #d8bd7b;
+  box-shadow: 0 4px 18px #0000000a;
+}
+.site-header .brand-mark {
+  background: linear-gradient(135deg, #8d6827 5%, #e7c66f 45%, #a77d30 75%, #f5df9b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.site-header .brand-name { color: #17130c; }
+.main-nav a { color: #17130c; }
+.main-nav a:hover { color: var(--gold-dark); }
+.menu-toggle span { background: #17130c; }
+
+/* Capa escura com brilho dourado, mantendo texto branco */
+.hero {
+  background:
+    radial-gradient(ellipse at 50% 18%, #6e5425 0%, #211b10 27%, transparent 58%),
+    linear-gradient(135deg, #050505 0%, #17130c 52%, #050505 100%);
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #8d6827, #f0d78f, #a77d30) 1;
+}
+.hero-monogram {
+  background: linear-gradient(135deg, #fff 5%, #e9d59d 35%, #c9a34e 58%, #fff0bd 78%, #b58a3c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero-brand-name {
+  color: #fff;
+  text-shadow: 0 2px 18px #c9a34e55;
+}
+.hero h1 { color: #fff; }
+.hero h1 em, .hero h1 strong { color: var(--gold-light); }
+.hero-copy { color: #e4dfd3; }
+.hero-eyebrow { color: var(--gold-light); }
+.button-light {
+  background: linear-gradient(115deg, #a77d30, #f0d78f 48%, #bd9547);
+  color: #100d07;
+  border: 1px solid #f5dfa0;
+  box-shadow: 0 7px 24px #c9a34e30;
+}
+.button-light:hover { background: linear-gradient(115deg, #f0d78f, #fff0bd, #c9a34e); }
+
+/* Catálogo claro, com molduras e pequenos detalhes ouro */
+.section {
+  background: linear-gradient(180deg, #fff 0%, #fffdf8 100%);
+}
+.section-heading h2 { color: #111; }
+.section-heading .eyebrow,
+.delivery .eyebrow { color: var(--gold-dark); }
+.catalog-toolbar {
+  border-top: 1px solid #d8bd7b;
+  border-bottom: 1px solid #d8bd7b;
+}
+.filter:hover, .filter.active {
+  color: #8d6827;
+  border-bottom-color: var(--gold);
+}
+.product-card {
+  padding: 0 0 18px;
+  background: #fff;
+  border: 1px solid #eee6d5;
+  box-shadow: 0 7px 22px #1b160b0a;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+.product-card:hover {
+  border-color: #c9a34e;
+  box-shadow: 0 12px 28px #8d68271c;
+  transform: translateY(-3px);
+}
+.product-info { padding: 17px 14px 0; }
+.product-buy {
+  width: calc(100% - 28px);
+  margin: 16px 14px 0;
+  background: linear-gradient(110deg, #a77d30, #e6c875 48%, #bd9547);
+  border: 1px solid #b58a3c;
+  color: #100d07;
+  box-shadow: 0 3px 10px #c9a34e20;
+}
+.product-buy:hover {
+  background: linear-gradient(110deg, #f0d78f, #fff0bd, #c9a34e);
+  color: #100d07;
+}
+
+/* Faixa de entrega em dourado suave com texto preto */
+.delivery {
+  background:
+    radial-gradient(ellipse at 85% 20%, #f3e5bd 0%, transparent 48%),
+    linear-gradient(120deg, #f7efdF 0%, #fffdf8 55%, #ead7a8 100%);
+  border-top: 1px solid #c9a34e;
+  border-bottom: 1px solid #c9a34e;
+}
+.delivery h2 { color: #111; }
+.delivery-inner > p:not(.eyebrow) { color: #514832; }
+.button-dark {
+  background: linear-gradient(110deg, #090909, #292216);
+  color: #f0d78f;
+  border: 1px solid #c9a34e;
+}
+.button-dark:hover { background: #c9a34e; color: #090909; }
+
+/* Rodapé preto com tipografia branca e acabamento ouro */
+.site-footer {
+  background:
+    radial-gradient(ellipse at 12% 0%, #392b13 0%, transparent 38%),
+    linear-gradient(135deg, #080808 0%, #17130c 100%);
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg, #8d6827, #f0d78f, #a77d30) 1;
+}
+.footer-heading { color: var(--gold-light); }
+.footer-title { color: #fff; }
+.footer-description, .footer-bottom { color: #c4bdaF; }
+.footer-categories a, .contact-link { color: #f5f1e8; }
+.footer-categories a:hover, .contact-link:hover { color: var(--gold-light); }
+.instagram-round { border-color: var(--gold); color: var(--gold-light); }
+.instagram-round:hover { background: var(--gold); color: #080808; }
+.whatsapp-float {
+  background: linear-gradient(145deg, #090909, #292216);
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  box-shadow: 0 5px 22px #0004, 0 0 0 3px #c9a34e18;
+}
+@media (max-width: 800px) {
+  .main-nav {
+    background: linear-gradient(110deg, #fff 0%, #fffdf8 72%, #f7efdf 100%);
+    border-bottom: 1px solid #d8bd7b;
+  }
+}

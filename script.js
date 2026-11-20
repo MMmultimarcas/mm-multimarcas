@@ -137,6 +137,14 @@ function renderizarProdutos(categoria = "Todos") {
     };
     imageWrap.appendChild(img);
 
+    const emPromocao = produto.categoria === "Camisetas" && produto.preco === "R$ 99,90";
+    if (emPromocao) {
+      const promoBadge = document.createElement("span");
+      promoBadge.className = "promo-badge";
+      promoBadge.textContent = "OFERTA";
+      imageWrap.appendChild(promoBadge);
+    }
+
     const info = document.createElement("div");
     info.className = "product-info";
 
@@ -149,8 +157,22 @@ function renderizarProdutos(categoria = "Todos") {
     name.textContent = produto.nome;
 
     const price = document.createElement("p");
-    price.className = "product-price";
-    price.textContent = produto.preco;
+    if (emPromocao) {
+      price.className = "product-price product-price-sale";
+      const oldPrice = document.createElement("span");
+      oldPrice.className = "old-price";
+      oldPrice.textContent = produto.preco;
+      const salePrice = document.createElement("strong");
+      salePrice.className = "sale-price";
+      salePrice.textContent = "R$ 80,00";
+      const saleLabel = document.createElement("span");
+      saleLabel.className = "sale-label";
+      saleLabel.textContent = "PROMOÇÃO";
+      price.append(oldPrice, salePrice, saleLabel);
+    } else {
+      price.className = "product-price";
+      price.textContent = produto.preco;
+    }
 
     const buy = document.createElement("a");
     buy.className = "product-buy";

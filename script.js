@@ -83,7 +83,7 @@ const produtos = [
   {
     nome: "Bermudas Mauricinho Zara",
     categoria: "Bermudas",
-    preco: "R$ 70,00",
+    preco: "R$ 69,99",
     imagem: "imagens/bermuda sarja zara.jpeg",
     link: "https://api.whatsapp.com/send/?phone=5564999380911&text=Ol%C3%A1!+Vi+no+site+da+MM+Multimarcas+a+pe%C3%A7a+Short+Mauricinho+Zara+e+gostaria+de+saber+o+valor+e+os+tamanhos+dispon%C3%ADveis.&type=phone_number&app_absent=0&utm_source=chatgpt.com"
   },
@@ -157,7 +157,7 @@ function renderizarProdutos(categoria = "Todos") {
       oldPrice.textContent = produto.preco;
       const salePrice = document.createElement("strong");
       salePrice.className = "sale-price";
-      salePrice.textContent = "R$ 80,00";
+      salePrice.textContent = "R$ 79,99";
       const saleLabel = document.createElement("span");
       saleLabel.className = "sale-label";
       saleLabel.textContent = "PROMOÇÃO";

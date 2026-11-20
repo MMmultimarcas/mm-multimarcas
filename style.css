@@ -289,3 +289,29 @@ button { font: inherit; }
     border-bottom: 1px solid #d8bd7b;
   }
 }
+
+
+/* Ajuste solicitado: remover apenas o tom amarelado dos fundos */
+:root {
+  --paper: #fafafa;
+}
+.site-header {
+  background: #ffffff;
+}
+.hero {
+  background: #050505;
+}
+.section {
+  background: #ffffff;
+}
+.delivery {
+  background: #fafafa;
+}
+.site-footer {
+  background: #080808;
+}
+@media (max-width: 800px) {
+  .main-nav {
+    background: #ffffff;
+  }
+}

@@ -315,3 +315,20 @@ button { font: inherit; }
     background: #ffffff;
   }
 }
+
+
+/* Símbolo principal MM inspirado na referência da marca */
+.hero-monogram {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  overflow: visible;
+  font-size: initial;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-right: 0;
+  transform: none;
+  background: none;
+  color: initial;
+}
+.hero-brand { width: min(100%, 560px); }

@@ -138,13 +138,6 @@ function renderizarProdutos(categoria = "Todos") {
     imageWrap.appendChild(img);
 
     const emPromocao = produto.categoria === "Camisetas" && produto.preco === "R$ 99,90";
-    if (emPromocao) {
-      const promoBadge = document.createElement("span");
-      promoBadge.className = "promo-badge";
-      promoBadge.textContent = "OFERTA";
-      imageWrap.appendChild(promoBadge);
-    }
-
     const info = document.createElement("div");
     info.className = "product-info";
 

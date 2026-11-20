@@ -368,3 +368,44 @@ button { font: inherit; }
   background: linear-gradient(110deg, #f0d78f, #fff0bd, #c9a34e);
   color: #080808;
 }
+
+
+/* Destaque de promoção nas camisetas */
+.promo-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  padding: 9px 13px;
+  background: linear-gradient(110deg, #a77d30, #f0d78f 48%, #bd9547);
+  border: 1px solid #fff0bd;
+  color: #080808;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  box-shadow: 0 3px 12px #0003;
+}
+.product-price-sale {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.product-price-sale .old-price {
+  color: #888;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+.product-price-sale .sale-price {
+  color: #98712d;
+  font-size: 21px;
+  font-weight: 900;
+}
+.product-price-sale .sale-label {
+  padding: 4px 7px;
+  background: #080808;
+  color: #f0d78f;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
